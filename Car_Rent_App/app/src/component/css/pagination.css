@@ -1,0 +1,28 @@
+.pagination-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #edf0f6;
+  width: 95%;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(161, 161, 161);
+
+  margin: auto;
+}
+
+.pagination-box > h6 {
+  margin-top: 17px;
+  margin-left: 2rem;
+}
+.pagination {
+  padding-right: 7rem;
+}
+
+.pagination li a {
+  margin-right: 1rem;
+  margin-top: 13px;
+  height: 35px;
+  border-radius: 11px !important;
+  color: rgb(58, 57, 57);
+}

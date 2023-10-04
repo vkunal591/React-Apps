@@ -1,0 +1,88 @@
+
+
+
+:root{
+  --orangeText: #5e2ced;
+  --orangeTab:#f5f0ea;
+  --blurWhite:#f5f0ea;
+  --blackCard:#111111;
+  --brownIcon:#460eb7;
+  --pbort:#e94500;
+
+
+}
+
+body{
+  background-color: #edf0f6;
+}
+
+
+.orange{
+  color: var(--orangeText);
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+.kh-100{
+  height: 100px;
+}
+.kh-200{
+  height: 200px;
+}
+.kh-300{
+  height: 300px;
+}
+.kh-400{
+  height: 400px;
+}
+.kh-500{
+  height: 500px;
+}
+.kh-600{
+  height: 600px;
+}
+.kh-700{
+  height: 700px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-device-width: 100px) and (max-device-width: 550px) {
+
+
+  .tour-title{
+    font-size: 1.2rem;
+    width: 95%;
+    display: none;
+
+  }
+
+
+  .tour-desc{
+    font-size: 0.8rem;
+    width: 95%;
+    display: none;
+  }
+
+  .kh{
+    height: 200px;
+  }
+
+
+
+
+}

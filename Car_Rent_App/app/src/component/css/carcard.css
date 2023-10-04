@@ -1,0 +1,61 @@
+.card {
+  border-radius: 20px;
+  background-color: #ecf0f9;
+}
+
+.card > img {
+  width: 93%;
+  height: 250px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.card-content {
+  width: 80%;
+  margin: auto;
+}
+
+.card-body {
+  width: 90%;
+  margin: auto;
+}
+
+.card-content p {
+  width: 45% !important;
+  margin-left: 1rem !important;
+}
+
+.card-foot h4 {
+  display: inline-block;
+  /* width: 50%; */
+  color: black;
+}
+
+.card hr {
+  width: 90%;
+  margin-left: 1.2rem;
+}
+
+.card-foot h4 span {
+  font-size: 15px !important;
+}
+
+.card-foot button {
+  border-radius: 13px;
+  width: max-content;
+  font-weight: 600;
+  margin-right: -2.7rem;
+}
+
+.fav-btn {
+  background-color: rgba(0, 255, 255, 0.252);
+  border: none;
+}
+
+.fav-btn:hover {
+  color: rgb(244, 79, 79);
+}
+
+.icon-color {
+  color: #65a9ef;
+}

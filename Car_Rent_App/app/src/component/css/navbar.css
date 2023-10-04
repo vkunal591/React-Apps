@@ -1,0 +1,45 @@
+.nav-box {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #edf0f6;
+  width: 95%;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(161, 161, 161);
+
+  margin: auto;
+}
+
+.search-box {
+  width: 21rem;
+  margin-top: 11px;
+}
+
+.search-box input {
+  border-radius: 15px !important;
+}
+
+.search-box button {
+  outline: none;
+  outline-style: none;
+  position: absolute !important;
+  right: 0;
+
+  border: none;
+  border-radius: 15px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.input-group .btn {
+  z-index: 5;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  border-color: transparent !important;
+}

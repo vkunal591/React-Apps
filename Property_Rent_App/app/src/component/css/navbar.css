@@ -1,0 +1,41 @@
+/* 
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  border-color: transparent !important;
+} */
+
+.navbar {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar div a {
+  margin: 1rem 0.5rem;
+  width: 7rem;
+  height: 2.8rem;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+}
+
+.navbar div a:hover {
+  background-color: rgb(54, 54, 255);
+  color: white;
+  font-weight: bold;
+}
+
+.active {
+  background-color: rgb(54, 54, 255);
+  color: white;
+  font-weight: bold;
+}
+
+div .view-btn {
+  border: 2px solid blue !important;
+  color: blue !important;
+}
